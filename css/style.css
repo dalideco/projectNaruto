@@ -1,0 +1,107 @@
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+	font-family:sans-serif;
+	font-size:16px;
+	line-height: 1.6em;
+	margin:0;
+}
+.container{
+	margin: auto ;
+	width : 80%;
+	overflow:hidden;
+}
+
+#header{
+	background-image:url(../images/109698.jpg);
+	min-height : 300px;
+
+}
+#header h1{
+	text-align :center;
+	font-size :100px;
+	font-family :"Comic Sans MS" ;
+	color: orange;
+	padding: 30px;
+}
+#navbar {
+	background: #333 ;
+	color: white;
+}
+#navbar ul {
+	padding : 0;
+	list-style: none;
+	box-sizing:border-box;
+	margin-left:10%;
+
+}
+#navbar li{
+	display : inline;
+	padding : 20px 0;
+	box-sizing:border-box;
+}
+#navbar a {
+	color:#fff;
+	text-decoration:none;
+	padding:20px 40px;
+}
+#navbar li:hover{
+	background-color:darkgrey;
+}
+#mainpicture{
+	float:left;
+	width:30%;
+	margin: 30px 0;
+	box-sizing: border-box;
+	border : 3px dotted darkgrey;
+	position:relative;
+}
+#aboutNaruto{
+	float:left ;
+	width:70%;
+	margin : 30px 0;
+	box-sizing: border-box;
+	border : 3px dotted darkgrey;
+	padding-bottom:52px;
+}
+#mainpicture img{
+	padding:45px;
+}
+#main-footer{
+	background:#333;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width: 900px){
+	#navbar a{
+		padding:20px 6px;
+	}
+	#mainpicture{
+		float:top;
+		width:40%;
+	}
+	#AboutNaruto{
+		float:top;
+		width:100%;
+	}
+	.container{
+		width:100%;
+	}
+}
+@media(max-width : 1250px){
+	.container{
+		width:100%;
+	}
+	#navbar ul{
+		margin-left:0;
+		margin-right:0;
+	}
+}
+@media(max-width: 1350px){
+	#mainpicture img{
+		padding:0;
+	}
+}
